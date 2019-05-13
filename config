@@ -1,0 +1,8 @@
+Host *
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
+
+Host suhilaahmed30.github
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
